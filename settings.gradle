@@ -6,5 +6,5 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "Balanin493_Lab5_Map"
+rootProject.name = "lab_16_MapAPI"
 include ':app'

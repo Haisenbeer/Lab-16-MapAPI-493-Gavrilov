@@ -1,4 +1,4 @@
-package com.example.balanin493_lab5_map;
+package com.example.lab_16_MapAPI;
 
 import org.junit.Test;
 
