@@ -26,7 +26,7 @@ public class DB extends SQLiteOpenHelper
         String sql = "CREATE TABLE Settings (http TEXT, ofsX REAL, ofsY REAL, scale INT, colorCoastlines INT, colorRivers INT, colorRailroads INT, colorRoads INT, lifetimeTile INT);";
         db.execSQL(sql);
 
-        sql = "INSERT INTO Settings VALUES ('" + "http://tilemap.spbcoit.ru:7000/" + "', " + 0 + ", " + 0 + ", " + 0 + "," +
+        sql = "INSERT INTO Settings VALUES ('" + "http://labs-api.spbcoit.ru/lab/tiles/api" + "', " + 0 + ", " + 0 + ", " + 0 + "," +
                 "" + Color.DKGRAY + ", " + Color.BLUE + ", " + Color.GRAY + ", " + Color.BLACK + ", " + 1000 + ");";
         db.execSQL(sql);
 
